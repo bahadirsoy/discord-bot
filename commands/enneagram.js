@@ -8,7 +8,7 @@ const enneagramPaths = path.join(__dirname, '../enneagramInfos');
 const enneagramFiles = fs.readdirSync(enneagramPaths).filter(file => file.endsWith('.txt'));
 
 for (const file of enneagramFiles) {
-	let info = fs.readFileSync(`../enneagramInfos/${file}`).toString()
+	let info = fs.readFileSync(`/app/enneagramInfos/${file}`).toString()
     enneagrams.push({
         name: file,
         content: info,
