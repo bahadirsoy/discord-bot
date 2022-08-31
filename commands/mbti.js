@@ -8,7 +8,7 @@ const mbtiPaths = path.join(__dirname, '../mbtiTypes');
 const mbtiFiles = fs.readdirSync(mbtiPaths).filter(file => file.endsWith('.txt'));
 
 for (const file of mbtiFiles) {
-	let info = fs.readFileSync(`C:/Users/oxika/Desktop/discordBot/mbtiTypes/${file}`).toString()
+	let info = fs.readFileSync(`/app/mbtiTypes/${file}`).toString()
     mbtiTypes.push({
         name: file,
         content: info,

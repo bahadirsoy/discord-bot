@@ -8,7 +8,7 @@ const socionicPaths = path.join(__dirname, '../socionicTypes');
 const socionicFiles = fs.readdirSync(socionicPaths).filter(file => file.endsWith('.txt'));
 
 for (const file of socionicFiles) {
-	let info = fs.readFileSync(`C:/Users/oxika/Desktop/discordBot/socionicTypes/${file}`).toString()
+	let info = fs.readFileSync(`/app/socionicTypes/${file}`).toString()
     socionics.push({
         name: file,
         content: info,
