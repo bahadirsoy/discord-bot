@@ -121,15 +121,15 @@ module.exports = {
         
         switch(ennaType){
             case "1":
-                if(wing === "2") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('1w9 (The Idealist)').setDescription(enneagrams.filter(element => element.name == "1w2.txt")[0].content)],});
-                else if(wing === "9") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('1w2 (The Advocate)').setDescription(enneagrams.filter(element => element.name == "1w9.txt")[0].content)],});
+                if(wing === "9") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('1w9 (The Idealist)').setDescription(enneagrams.filter(element => element.name == "1w9.txt")[0].content)],});
+                else if(wing === "2") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('1w2 (The Advocate)').setDescription(enneagrams.filter(element => element.name == "1w2.txt")[0].content)],});
                 else if(wing) return interaction.reply('no wing');
                 else return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('Type 1 (The Reformer)').setDescription(enneagrams.filter(element => element.name == "1.txt")[0].content)],});
             case "2":
                 if(wing === "1") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('2w1 (The Servant)').setDescription(enneagrams.filter(element => element.name == "2w1.txt")[0].content)],});
                 else if(wing === "3") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('2w3 (The Host/Hostess)').setDescription(enneagrams.filter(element => element.name == "2w3.txt")[0].content)],});
                 else if(wing) return interaction.reply('no wing');
-                else return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('Type 2 (The Helper)').setDescription(enneagrams.filter(element => element.name == "1w9.txt")[0].content)],});
+                else return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('Type 2 (The Helper)').setDescription(enneagrams.filter(element => element.name == "2.txt")[0].content)],});
             case "3":
                 if(wing === "2") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('3w2 (The Charmer)').setDescription(enneagrams.filter(element => element.name == "3w2.txt")[0].content)],});
                 else if(wing === "4") return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('3w4 (The Professional)').setDescription(enneagrams.filter(element => element.name == "3w4.txt")[0].content)],});
