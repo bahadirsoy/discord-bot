@@ -7,7 +7,7 @@ const { EmbedBuilder } = require('discord.js');
 var fs = require('fs')
 
 var description = "asdsa";
-description = fs.readFileSync(`C:/Users/oxika/Desktop/discordBotDev/discord-bot/helpcommanddesc.txt`).toString()
+description = fs.readFileSync(`/app/helpcommanddesc.txt`).toString()
 
 
 const embed = new EmbedBuilder()
