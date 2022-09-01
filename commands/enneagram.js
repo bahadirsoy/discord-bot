@@ -21,7 +21,7 @@ const { EmbedBuilder } = require('discord.js');
 const embed = new EmbedBuilder()
 	.setColor("#f0f018")
 	.setTitle('1w2 (The Advocate)')
-	.setURL('https://www.linkedin.com/in/bahadır-ustabaşı-693550165/')
+	//.setURL('https://www.linkedin.com/in/bahadır-ustabaşı-693550165/')
 	//.setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
 	//.setDescription(enneagrams.filter(element => element.name == "1w2.txt")[0].content)
 	//.setThumbnail('https://i.imgur.com/AfFp7pu.png')
