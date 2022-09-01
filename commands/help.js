@@ -12,9 +12,9 @@ description = fs.readFileSync(`/app/helpcommanddesc.txt`).toString()
 
 const embed = new EmbedBuilder()
 	.setColor("#f0f018")
-	.setTitle('Commands')
+	.setTitle('Typology Bot Commands')
 	//.setURL('https://www.linkedin.com/in/bahadır-ustabaşı-693550165/')
-	.setAuthor({ name: 'Typology Bot', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
+	.setAuthor({ name: 'Typology Bot', /*iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org'*/ })
 	.setDescription(description)
 	//.setThumbnail('https://i.imgur.com/AfFp7pu.png')
 	/*.addFields(
