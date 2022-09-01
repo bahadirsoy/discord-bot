@@ -1,0 +1,42 @@
+MBTI Commands
+--------------------------------
+
+/mbti <type>
+
+Example: /mbti esfj
+
+
+
+Socionics Commands
+--------------------------------
+
+/socionics <type> <subtype>(optional)
+
+Example: /socionics ile, /socionics esi se
+
+
+
+Enneagram Commands
+--------------------------------
+
+/enneagram <type> <wing>(optional)
+
+Example: /enneagram 4, /enneagram 1 9
+
+
+
+Tritype Commands
+--------------------------------
+
+/tritype <type>
+
+Example: /tritype 125
+
+
+
+Variant Commands
+--------------------------------
+
+/variant <instinctual variant> <enneagram>(optional)
+
+Example: /variant sexual, /variant social 1
