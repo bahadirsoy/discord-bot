@@ -40,3 +40,4 @@ Variant Commands
 /variant <instinctual variant> <enneagram>(optional)
 
 Example: /variant sexual, /variant social 1
+
