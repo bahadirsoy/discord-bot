@@ -39,7 +39,7 @@ const embed = new EmbedBuilder()
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('tritype')
-		.setDescription('Replies with Pong!')
+		.setDescription('Tritype description')
         .addSubcommand(subcommand =>
             subcommand
                 .setName('125')

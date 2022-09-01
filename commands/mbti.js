@@ -41,7 +41,7 @@ const embed = new EmbedBuilder()
 module.exports = {
 	data: new SlashCommandBuilder()
     .setName('mbti')
-	.setDescription('Get info about a user or a server!')
+	.setDescription('MBTI type description')
 	.addSubcommand(subcommand =>
 		subcommand
 			.setName('istj')

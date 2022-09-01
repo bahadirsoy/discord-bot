@@ -31,7 +31,7 @@ const embed = new EmbedBuilder()
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('help')
-		.setDescription('Replies with Pong!'),
+		.setDescription('Typology Bot Guide'),
 	async execute(interaction) {
 		return interaction.reply({embeds: [embed],})
 	},
