@@ -91,22 +91,22 @@ module.exports = {
         const ennaType = interaction.options._subcommand
 
         switch(ennaType){
-            case "istj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ISTJ (Logistician)').setDescription(mbtiTypes.filter(element => element.name == "ISTJ.txt")[0].content)],});
-            case "isfj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ISFJ (Defender)').setDescription(mbtiTypes.filter(element => element.name == "ISFJ.txt")[0].content)],});
-            case "infj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('INFJ (Advocate)').setDescription(mbtiTypes.filter(element => element.name == "INFJ.txt")[0].content)],});
-            case "intj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('INTJ (Architect)').setDescription(mbtiTypes.filter(element => element.name == "INTJ.txt")[0].content)],});
-            case "istp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ISTP (Virtuoso)').setDescription(mbtiTypes.filter(element => element.name == "ISTP.txt")[0].content)],});
-            case "isfp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ISFP (Adventurer)').setDescription(mbtiTypes.filter(element => element.name == "ISFP.txt")[0].content)],});
-            case "infp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('INFP (Mediator)').setDescription(mbtiTypes.filter(element => element.name == "INFP.txt")[0].content)],});
-            case "intp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('INTP (Logician)').setDescription(mbtiTypes.filter(element => element.name == "INTP.txt")[0].content)],});
-            case "estp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ESTP (Entrepreneur)').setDescription(mbtiTypes.filter(element => element.name == "ESTP.txt")[0].content)],});
-            case "esfp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ESFJ (Entertainer)').setDescription(mbtiTypes.filter(element => element.name == "ESFP.txt")[0].content)],});
-            case "enfp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ENFP (Campaigner)').setDescription(mbtiTypes.filter(element => element.name == "ENFP.txt")[0].content)],});
-            case "entp": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ENTP (Debater)').setDescription(mbtiTypes.filter(element => element.name == "ENTP.txt")[0].content)],});
-            case "estj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ESTJ (Executive)').setDescription(mbtiTypes.filter(element => element.name == "ESTJ.txt")[0].content)],});
-            case "esfj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ESFJ (Consul)').setDescription(mbtiTypes.filter(element => element.name == "ESFJ.txt")[0].content)],});
-            case "enfj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ENFJ (Protagonist)').setDescription(mbtiTypes.filter(element => element.name == "ENFJ.txt")[0].content)],});
-            case "entj": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('ENTJ (Commander)').setDescription(mbtiTypes.filter(element => element.name == "ENTJ.txt")[0].content)],});
+            case "istj": return interaction.reply({embeds: [embed.setTitle('ISTJ (Logistician)').setDescription(mbtiTypes.filter(element => element.name == "ISTJ.txt")[0].content)],});
+            case "isfj": return interaction.reply({embeds: [embed.setTitle('ISFJ (Defender)').setDescription(mbtiTypes.filter(element => element.name == "ISFJ.txt")[0].content)],});
+            case "infj": return interaction.reply({embeds: [embed.setTitle('INFJ (Advocate)').setDescription(mbtiTypes.filter(element => element.name == "INFJ.txt")[0].content)],});
+            case "intj": return interaction.reply({embeds: [embed.setTitle('INTJ (Architect)').setDescription(mbtiTypes.filter(element => element.name == "INTJ.txt")[0].content)],});
+            case "istp": return interaction.reply({embeds: [embed.setTitle('ISTP (Virtuoso)').setDescription(mbtiTypes.filter(element => element.name == "ISTP.txt")[0].content)],});
+            case "isfp": return interaction.reply({embeds: [embed.setTitle('ISFP (Adventurer)').setDescription(mbtiTypes.filter(element => element.name == "ISFP.txt")[0].content)],});
+            case "infp": return interaction.reply({embeds: [embed.setTitle('INFP (Mediator)').setDescription(mbtiTypes.filter(element => element.name == "INFP.txt")[0].content)],});
+            case "intp": return interaction.reply({embeds: [embed.setTitle('INTP (Logician)').setDescription(mbtiTypes.filter(element => element.name == "INTP.txt")[0].content)],});
+            case "estp": return interaction.reply({embeds: [embed.setTitle('ESTP (Entrepreneur)').setDescription(mbtiTypes.filter(element => element.name == "ESTP.txt")[0].content)],});
+            case "esfp": return interaction.reply({embeds: [embed.setTitle('ESFJ (Entertainer)').setDescription(mbtiTypes.filter(element => element.name == "ESFP.txt")[0].content)],});
+            case "enfp": return interaction.reply({embeds: [embed.setTitle('ENFP (Campaigner)').setDescription(mbtiTypes.filter(element => element.name == "ENFP.txt")[0].content)],});
+            case "entp": return interaction.reply({embeds: [embed.setTitle('ENTP (Debater)').setDescription(mbtiTypes.filter(element => element.name == "ENTP.txt")[0].content)],});
+            case "estj": return interaction.reply({embeds: [embed.setTitle('ESTJ (Executive)').setDescription(mbtiTypes.filter(element => element.name == "ESTJ.txt")[0].content)],});
+            case "esfj": return interaction.reply({embeds: [embed.setTitle('ESFJ (Consul)').setDescription(mbtiTypes.filter(element => element.name == "ESFJ.txt")[0].content)],});
+            case "enfj": return interaction.reply({embeds: [embed.setTitle('ENFJ (Protagonist)').setDescription(mbtiTypes.filter(element => element.name == "ENFJ.txt")[0].content)],});
+            case "entj": return interaction.reply({embeds: [embed.setTitle('ENTJ (Commander)').setDescription(mbtiTypes.filter(element => element.name == "ENTJ.txt")[0].content)],});
         }
         
         return interaction.reply('Pong!');

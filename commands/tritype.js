@@ -135,33 +135,33 @@ module.exports = {
         const tritype = interaction.options._subcommand
 
         switch(tritype){
-            case "125": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "125.txt")[0].content)],});
-            case "126": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('126, 162, 216, 261, 612, 621- The Supporter').setDescription(tritypes.filter(element => element.name == "126.txt")[0].content)],});
-            case "127": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('127, 172, 217, 271, 712, 721- The Teacher').setDescription(tritypes.filter(element => element.name == "127.txt")[0].content)],});
-            case "135": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('135, 153, 315, 351, 513, 531- The Technical Expert').setDescription(tritypes.filter(element => element.name == "135.txt")[0].content)],});
-            case "136": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('136, 163, 316, 361, 613, 631- The Taskmaster').setDescription(tritypes.filter(element => element.name == "136.txt")[0].content)],});
-            case "137": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('137, 173, 317, 371, 713, 731- The Systems Builder').setDescription(tritypes.filter(element => element.name == "137.txt")[0].content)],});
-            case "145": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('145, 154, 415, 451, 514, 541- The Researcher').setDescription(tritypes.filter(element => element.name == "145.txt")[0].content)],});
-            case "146": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('146, 164, 416, 461, 614, 641- The Philosopher').setDescription(tritypes.filter(element => element.name == "146.txt")[0].content)],});
-            //case "147": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "147.txt")[0].content)],});
-            //case "258": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "258.txt")[0].content)],});
-            case "259": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('259, 295, 529, 592, 925, 952- The Problem Solver').setDescription(tritypes.filter(element => element.name == "259.txt")[0].content)],});
-            case "268": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('268, 286, 628, 682, 826, 862- The Rescuer').setDescription(tritypes.filter(element => element.name == "268.txt")[0].content)],});
-            case "269": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('269, 296, 629, 692, 926, 962- The Good Samaritan').setDescription(tritypes.filter(element => element.name == "269.txt")[0].content)],});
-            case "278": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('278, 287, 728, 782, 827, 872- The Free Spirit').setDescription(tritypes.filter(element => element.name == "278.txt")[0].content)],});
-            case "279": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('279, 297, 729, 792, 927, 972- The Peacemaker').setDescription(tritypes.filter(element => element.name == "279.txt")[0].content)],});
-            case "358": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('358, 385, 538, 583, 835, 853- The Solution Master').setDescription(tritypes.filter(element => element.name == "358.txt")[0].content)],});
-            case "359": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('359, 395, 539, 593, 935, 953- The Thinker').setDescription(tritypes.filter(element => element.name == "359.txt")[0].content)],});
-            case "368": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('368, 386, 638, 683, 836, 863- The Justice Fighter').setDescription(tritypes.filter(element => element.name == "368.txt")[0].content)],});
-            case "369": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('369, 396, 639, 693, 936, 963- The Mediator').setDescription(tritypes.filter(element => element.name == "369.txt")[0].content)],});
-            case "378": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('378, 387, 738, 783, 837, 873- The Mover Shaker').setDescription(tritypes.filter(element => element.name == "378.txt")[0].content)],});
-            case "379": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('379, 397, 739, 793, 937, 973- The Ambassador').setDescription(tritypes.filter(element => element.name == "379.txt")[0].content)],});
-            case "458": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('458, 485, 548, 584, 845, 854- The Scholar').setDescription(tritypes.filter(element => element.name == "458.txt")[0].content)],});
-            case "459": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('459, 495, 549, 594, 945, 954- The Contemplative').setDescription(tritypes.filter(element => element.name == "459.txt")[0].content)],});
-            case "468": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('468, 486, 648, 684, 846, 864- The Truth Teller').setDescription(tritypes.filter(element => element.name == "468.txt")[0].content)],});
-            case "469": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('469, 496, 649, 694, 946, 964- The Seeker').setDescription(tritypes.filter(element => element.name == "469.txt")[0].content)],});
-            case "478": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('478, 487, 748, 784, 847, 874- The Messenger').setDescription(tritypes.filter(element => element.name == "478.txt")[0].content)],});
-            case "479": return interaction.reply({embeds: [EmbedBuilder.from(embed).setTitle('479, 497, 749, 794, 947, 974- The Gentle Spirit').setDescription(tritypes.filter(element => element.name == "479.txt")[0].content)],});
+            case "125": return interaction.reply({embeds: [embed.setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "125.txt")[0].content)],});
+            case "126": return interaction.reply({embeds: [embed.setTitle('126, 162, 216, 261, 612, 621- The Supporter').setDescription(tritypes.filter(element => element.name == "126.txt")[0].content)],});
+            case "127": return interaction.reply({embeds: [embed.setTitle('127, 172, 217, 271, 712, 721- The Teacher').setDescription(tritypes.filter(element => element.name == "127.txt")[0].content)],});
+            case "135": return interaction.reply({embeds: [embed.setTitle('135, 153, 315, 351, 513, 531- The Technical Expert').setDescription(tritypes.filter(element => element.name == "135.txt")[0].content)],});
+            case "136": return interaction.reply({embeds: [embed.setTitle('136, 163, 316, 361, 613, 631- The Taskmaster').setDescription(tritypes.filter(element => element.name == "136.txt")[0].content)],});
+            case "137": return interaction.reply({embeds: [embed.setTitle('137, 173, 317, 371, 713, 731- The Systems Builder').setDescription(tritypes.filter(element => element.name == "137.txt")[0].content)],});
+            case "145": return interaction.reply({embeds: [embed.setTitle('145, 154, 415, 451, 514, 541- The Researcher').setDescription(tritypes.filter(element => element.name == "145.txt")[0].content)],});
+            case "146": return interaction.reply({embeds: [embed.setTitle('146, 164, 416, 461, 614, 641- The Philosopher').setDescription(tritypes.filter(element => element.name == "146.txt")[0].content)],});
+            //case "147": return interaction.reply({embeds: [embed.setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "147.txt")[0].content)],});
+            //case "258": return interaction.reply({embeds: [embed.setTitle('125, 152, 215, 251, 512, 521- The Mentor').setDescription(tritypes.filter(element => element.name == "258.txt")[0].content)],});
+            case "259": return interaction.reply({embeds: [embed.setTitle('259, 295, 529, 592, 925, 952- The Problem Solver').setDescription(tritypes.filter(element => element.name == "259.txt")[0].content)],});
+            case "268": return interaction.reply({embeds: [embed.setTitle('268, 286, 628, 682, 826, 862- The Rescuer').setDescription(tritypes.filter(element => element.name == "268.txt")[0].content)],});
+            case "269": return interaction.reply({embeds: [embed.setTitle('269, 296, 629, 692, 926, 962- The Good Samaritan').setDescription(tritypes.filter(element => element.name == "269.txt")[0].content)],});
+            case "278": return interaction.reply({embeds: [embed.setTitle('278, 287, 728, 782, 827, 872- The Free Spirit').setDescription(tritypes.filter(element => element.name == "278.txt")[0].content)],});
+            case "279": return interaction.reply({embeds: [embed.setTitle('279, 297, 729, 792, 927, 972- The Peacemaker').setDescription(tritypes.filter(element => element.name == "279.txt")[0].content)],});
+            case "358": return interaction.reply({embeds: [embed.setTitle('358, 385, 538, 583, 835, 853- The Solution Master').setDescription(tritypes.filter(element => element.name == "358.txt")[0].content)],});
+            case "359": return interaction.reply({embeds: [embed.setTitle('359, 395, 539, 593, 935, 953- The Thinker').setDescription(tritypes.filter(element => element.name == "359.txt")[0].content)],});
+            case "368": return interaction.reply({embeds: [embed.setTitle('368, 386, 638, 683, 836, 863- The Justice Fighter').setDescription(tritypes.filter(element => element.name == "368.txt")[0].content)],});
+            case "369": return interaction.reply({embeds: [embed.setTitle('369, 396, 639, 693, 936, 963- The Mediator').setDescription(tritypes.filter(element => element.name == "369.txt")[0].content)],});
+            case "378": return interaction.reply({embeds: [embed.setTitle('378, 387, 738, 783, 837, 873- The Mover Shaker').setDescription(tritypes.filter(element => element.name == "378.txt")[0].content)],});
+            case "379": return interaction.reply({embeds: [embed.setTitle('379, 397, 739, 793, 937, 973- The Ambassador').setDescription(tritypes.filter(element => element.name == "379.txt")[0].content)],});
+            case "458": return interaction.reply({embeds: [embed.setTitle('458, 485, 548, 584, 845, 854- The Scholar').setDescription(tritypes.filter(element => element.name == "458.txt")[0].content)],});
+            case "459": return interaction.reply({embeds: [embed.setTitle('459, 495, 549, 594, 945, 954- The Contemplative').setDescription(tritypes.filter(element => element.name == "459.txt")[0].content)],});
+            case "468": return interaction.reply({embeds: [embed.setTitle('468, 486, 648, 684, 846, 864- The Truth Teller').setDescription(tritypes.filter(element => element.name == "468.txt")[0].content)],});
+            case "469": return interaction.reply({embeds: [embed.setTitle('469, 496, 649, 694, 946, 964- The Seeker').setDescription(tritypes.filter(element => element.name == "469.txt")[0].content)],});
+            case "478": return interaction.reply({embeds: [embed.setTitle('478, 487, 748, 784, 847, 874- The Messenger').setDescription(tritypes.filter(element => element.name == "478.txt")[0].content)],});
+            case "479": return interaction.reply({embeds: [embed.setTitle('479, 497, 749, 794, 947, 974- The Gentle Spirit').setDescription(tritypes.filter(element => element.name == "479.txt")[0].content)],});
         }
 	},
 };
