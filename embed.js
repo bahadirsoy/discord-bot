@@ -1,10 +1,11 @@
-const { SlashCommandBuilder } = require('discord.js');
+/* Embed template */
+const { EmbedBuilder } = require('discord.js');
 
 //get help description
 var fs = require('fs')
 
-//require embed
-const {embed} = require("../embed.js")
+var description = "asdsa";
+description = fs.readFileSync(`/app/helpcommanddesc.txt`).toString()
 
 
 const embed = new EmbedBuilder()
@@ -26,10 +27,5 @@ const embed = new EmbedBuilder()
 	.setFooter({ text: 'This bot is made by Bahadır Ustabaşı', /*iconURL: 'https://i.imgur.com/AfFp7pu.png'*/ });
 
 module.exports = {
-	data: new SlashCommandBuilder()
-		.setName('help')
-		.setDescription('Typology Bot Guide'),
-	async execute(interaction) {
-		return interaction.reply({embeds: [embed],})
-	},
-};
+    embed
+}
