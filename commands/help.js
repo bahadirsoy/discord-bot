@@ -12,6 +12,6 @@ module.exports = {
 		.setName('help')
 		.setDescription('Typology Bot Guide'),
 	async execute(interaction) {
-		return interaction.reply({embeds: [embed],})
+		return interaction.reply({embeds: [embed.setTitle("Typology Bot")],})
 	},
 };
